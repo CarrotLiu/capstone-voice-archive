@@ -1,0 +1,40 @@
+html, body {
+  background-color: #EBE5D9;
+    padding: 6% 6%;
+    font: 18px "HYJiangNanKaiSong", "Dream Han Sans CN", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+}
+canvas {
+  display: block;
+}
+.canvas-wrapper{
+  margin: 120px;
+
+}
+
+.titleHome {
+  font-family: "Slidefu", "Dream Han Sans CN", Helvetica, Arial, sans-serif;
+  color: #363634;
+  font-size: 200px;
+  top: -20px;
+  position: absolute;
+  left: 76%;
+  margin: 0px 1px;
+}
+
+.logoHome{
+  align-items: center;
+    position: absolute;
+    /* display:flex; */
+    top: 0px;
+    margin-left: -50px;
+    min-width: 20%;
+    max-width: 120%;
+}
+
+.button {
+  left: 50%;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
